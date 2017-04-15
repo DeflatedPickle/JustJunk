@@ -2,6 +2,10 @@
 item.emptytincan.name=Empty Tin Can
 item.tiningot.name=Tin Ingot
 item.tincan.name=Tin Can
+item.toothbrush.name=Tooth Brush
+item.brokentoothbrush.name=Broken Tooth Brush
+item.toothbrushshiv.name=Tooth Brush Shiv
+
 item.rottingfish.name=Rotting Fish
 
 // Blocks

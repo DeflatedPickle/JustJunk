@@ -27,6 +27,8 @@ public class ItemTincan extends Item{
             Items.RECORD_CAT,
 
             ModItems.rottingfish,
+            ModItems.toothbrush,
+            ModItems.brokentoothbrush,
     };
 
     @Override

@@ -13,6 +13,10 @@ public class Reference {
         EMPTYTINCAN("emptytincan", "ItemEmptytincan"),
         TININGOT("tiningot", "ItemTiningot"),
         TINCAN("tincan", "ItemTincan"),
+        TOOTHBRUSH("toothbrush", "ItemToothbrush"),
+        BROKENTOOTHBRUSH("brokentoothbrush", "ItemBrokentoothbrush"),
+        TOOTHBRUSHSHIV("toothbrushshiv", "ItemToothbrushshiv"),
+
         ROTTINGFISH("rottingfish", "ItemRottingfish");
 
         private String unlocalizedName;
