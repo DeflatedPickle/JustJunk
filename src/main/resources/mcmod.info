@@ -1,0 +1,15 @@
+[
+  {
+    "modid": "dpjjm",
+    "name": "JustJunk",
+    "description": "A World of Junk.",
+    "version": "${version}",
+    "mcversion": "${mcversion}",
+    "updateUrl": "",
+    "authorList": ["DeflatedPickle"],
+    "credits": "DeflatedPickle, Bluexin",
+    "logoFile": "",
+    "screenshots": [],
+    "dependencies": []
+  }
+]

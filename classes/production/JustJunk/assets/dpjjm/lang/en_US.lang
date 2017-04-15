@@ -1,0 +1,13 @@
+// Items
+item.emptytincan.name=Empty Tin Can
+item.tiningot.name=Tin Ingot
+item.tincan.name=Tin Can
+item.rottingfish.name=Rotting Fish
+
+// Blocks
+tile.pileofgarbage.name=Pile of Garbage
+tile.tinore.name=Tin Ore
+tile.tinblock.name=Tin Block
+
+// Tabs
+itemGroup.tab_justjunk=Just Junk
