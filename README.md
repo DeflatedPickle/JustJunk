@@ -9,21 +9,22 @@ Credit: [Loremaster](https://www.youtube.com/channel/UC3n-lKS-MYlunVtErgzSFZg)
 - Full Surströmming Can
 - Empty Surströmming Can
 - Dirty Toothbrush
-- Broken Toothbrush (break toothbrush by right clicking on block)
-- Toothbrush shiv
+- Tinfoil
 #### Food
 - Rotting Banana Skin
 - Surströmming
 
 #### "Loot Bags"
 - Trash Bag
-- Tin Can
 - Note In A Bottle
 
 ### Blocks
 #### Containers
 - Dumpster
 - Trash Can
+
+### Armour
+- Tinfoil Hat
 
 ### Biomes
 
@@ -33,6 +34,11 @@ Credit: [Loremaster](https://www.youtube.com/channel/UC3n-lKS-MYlunVtErgzSFZg)
 ## Added
 ### Items
 - Empty Tin Can
+- Broken Toothbrush (break toothbrush by right clicking on block)
+- Toothbrush shiv
+
+#### "Loot Bags"
+- Tin Can
 
 #### Food
 - Rotting Fish
