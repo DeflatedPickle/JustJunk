@@ -17,3 +17,6 @@ build
 
 # idea
 .idea/
+
+# other
+run/
