@@ -9,5 +9,8 @@ public class ModCrafting {
         GameRegistry.addSmelting(ModItems.emptytincan, new ItemStack(ModItems.tiningot), 0.5F);
         GameRegistry.addSmelting(ModBlocks.tinore, new ItemStack(ModItems.tiningot), 1.0F);
         GameRegistry.addShapedRecipe(new ItemStack(ModBlocks.tinblock), "TTT", "TTT", "TTT", 'T', ModItems.tiningot);
+        GameRegistry.addShapelessRecipe(new ItemStack(ModItems.tiningot, 9), ModBlocks.tinblock);
+        GameRegistry.addShapelessRecipe(new ItemStack(ModItems.tinfoil, 2), ModItems.tiningot);
+        GameRegistry.addShapedRecipe(new ItemStack(ModItems.tiningot), "TTT", "TXT", "XXX", 'T', ModItems.tinfoil);
     }
 }
