@@ -9,10 +9,11 @@ Credit: [Loremaster](https://www.youtube.com/channel/UC3n-lKS-MYlunVtErgzSFZg)
 - Full Surströmming Can
 - Empty Surströmming Can
 - Dirty Toothbrush
-- Tinfoil
 - Aluminum Ingot
 - Aluminum Foil
 - Duct Tape
+- Scissors
+- Broken Scissors
 
 #### Food
 - Rotting Banana Skin
@@ -22,16 +23,18 @@ Credit: [Loremaster](https://www.youtube.com/channel/UC3n-lKS-MYlunVtErgzSFZg)
 #### "Loot Bags"
 - Trash Bag
 - Note In A Bottle
+- Doggy Bag
 
 ### Blocks
 - Tire Piles (slabs)
 #### Containers
 - Dumpster
 - Trash Can
-- Doggy Bag
 
 ### Armour
 - Aluminum Foil Hat
+- Empty Trash Bag (will suffocate you if worn)
+- Cut Up Trash Bag
 
 ### Biomes
 

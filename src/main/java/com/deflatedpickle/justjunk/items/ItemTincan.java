@@ -16,7 +16,6 @@ public class ItemTincan extends Item{
         setUnlocalizedName(Reference.JustJunkItems.TINCAN.getUnlocalizedName());
         setRegistryName(Reference.JustJunkItems.TINCAN.getRegistryName());
         setMaxStackSize(6);
-        setMaxDamage(1);
         setCreativeTab(JustJunk.tabJustJunk);
     }
 
