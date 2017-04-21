@@ -26,6 +26,13 @@ public class ItemTincan extends Item{
             Items.RABBIT,
             Items.RECORD_CAT,
             Items.REDSTONE,
+            Items.APPLE,
+            Items.BONE,
+            Items.FEATHER,
+            Items.GOLD_NUGGET,
+            Items.SLIME_BALL,
+            Items.SUGAR,
+            Items.POISONOUS_POTATO,
 
             ModItems.rottingfish,
             ModItems.toothbrush,

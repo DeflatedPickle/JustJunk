@@ -34,8 +34,6 @@ public class ModItems {
 
     public static ArmorMaterial tinfoilArmorMaterial = EnumHelper.addArmorMaterial("tinfoil", "dpjjm:tinfoil", 15, new int[]{2,6,5,2}, 9, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F);
 
-    //public static Potion potionsick;
-
     public static void init(){
         emptytincan = new ItemEmptytincan();
         tiningot = new ItemTiningot();

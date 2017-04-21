@@ -31,7 +31,9 @@ public class ItemSurstromming extends ItemFood{
     public ItemStack onItemUseFinish(ItemStack stack, World worldIn, EntityLivingBase entityLiving)
     {
         super.onItemUseFinish(stack, worldIn, entityLiving);
-        entityLiving.addPotionEffect((new PotionEffect(Potion.getPotionById(30), 50, 0)));
+        entityLiving.addPotionEffect((new PotionEffect(Potion.getPotionById(30), 50, 0))); // Sick
+        entityLiving.addPotionEffect((new PotionEffect(Potion.getPotionById(9), 300, 0))); // Nausea
+        entityLiving.addPotionEffect((new PotionEffect(Potion.getPotionById(17), 160, 0))); // Hunger
         return new ItemStack(ModItems.emptysurstrommingcan);
     }
 }

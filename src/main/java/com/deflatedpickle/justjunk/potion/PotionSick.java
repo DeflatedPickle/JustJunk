@@ -38,9 +38,27 @@ public class PotionSick extends Potion{
     private static final Item[] loot_table = new Item[] {
         Items.ROTTEN_FLESH,
         Items.REDSTONE,
+        Items.APPLE,
+        Items.BONE,
+        Items.DIAMOND,
+        Items.EGG,
+        Items.DIAMOND_HOE,
+        Items.GOLDEN_APPLE,
+        Items.GOLD_NUGGET,
+        Items.SLIME_BALL,
+        Items.SUGAR,
+        Items.MAP,
+        Items.FEATHER,
+        Items.POISONOUS_POTATO,
+        Items.GHAST_TEAR,
+        Items.STICK,
+        Items.DYE,
+        Items.PORKCHOP,
+        Items.BEEF,
+        Items.RABBIT,
+        Items.CHICKEN,
 
-        ModItems.rottingfish,
-        ModItems.brokentoothbrush
+        ModItems.rottingfish
     };
 
     @Override

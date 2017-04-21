@@ -32,7 +32,7 @@ Credit: [Bluexin](http://www.minecraftforum.net/members/Bluexin), [Tencao](http:
 - Dumpster
 - Trash Can
 
-### Armour
+### Armor
 - Aluminum Foil Hat
 - Empty Trash Bag (will suffocate you if worn)
 - Cut Up Trash Bag
@@ -54,9 +54,12 @@ Credit: [Bluexin](http://www.minecraftforum.net/members/Bluexin), [Tencao](http:
 ## Added
 ### Items
 - Empty Tin Can
+- Toothbrush
 - Broken Toothbrush (break toothbrush by right clicking on block)
 - Toothbrush Shiv
 - Empty Surströmming Can
+- Tinfoil
+- Tin Ingot
 
 #### "Loot Bags"
 - Tin Can
@@ -70,5 +73,5 @@ Credit: [Bluexin](http://www.minecraftforum.net/members/Bluexin), [Tencao](http:
 - Tin Ore
 - Tin Block
 
-### Armour
+### Armor
 - Tinfoil Hat
