@@ -46,7 +46,9 @@ public class PotionSick extends Potion{
     @Override
     public void performEffect(EntityLivingBase entityLivingBaseIn, int p_76394_2_){
         if (!entityLivingBaseIn.world.isRemote){
-            entityLivingBaseIn.world.spawnEntity(new EntityItem(entityLivingBaseIn.world, entityLivingBaseIn.posX + (entityLivingBaseIn.getLookVec().xCoord * 0.2F), entityLivingBaseIn.posY + entityLivingBaseIn.getEyeHeight(), entityLivingBaseIn.posZ + (entityLivingBaseIn.getLookVec().zCoord), new ItemStack(loot_table[(int) (Math.random() * loot_table.length)], 1)));
+            EntityItem item = new EntityItem(entityLivingBaseIn.world, entityLivingBaseIn.posX + (entityLivingBaseIn.getLookVec().xCoord * 0.2F), entityLivingBaseIn.posY + entityLivingBaseIn.getEyeHeight() - 0.7F, entityLivingBaseIn.posZ + (entityLivingBaseIn.getLookVec().zCoord), new ItemStack(loot_table[(int) (Math.random() * loot_table.length)], 1));
+            item.setPickupDelay(15);
+            entityLivingBaseIn.world.spawnEntity(item);
         }
     }
 

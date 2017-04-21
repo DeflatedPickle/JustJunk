@@ -52,7 +52,6 @@ public class ModItems {
         tinfoilhelmet = new ArmorTinfoil("tinfoilhelmet", "ItemTinfoilhelmet", 1, EntityEquipmentSlot.HEAD);
 
         Potion.REGISTRY.register(30, new ResourceLocation("sick"), new PotionSick(true, 16262179));
-        //potionsick = new PotionSick(true, 16262179).setIconIndex(0, 0).setPotionName("effect.sick");
     }
 
     public static void register(){
