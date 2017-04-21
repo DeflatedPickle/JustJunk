@@ -2,6 +2,7 @@ package com.deflatedpickle.justjunk.init;
 
 import com.deflatedpickle.justjunk.armor.ArmorTinfoil;
 import com.deflatedpickle.justjunk.items.*;
+import com.deflatedpickle.justjunk.potion.PotionSick;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.init.SoundEvents;
@@ -11,6 +12,8 @@ import net.minecraft.item.ItemArmor;
 import net.minecraft.item.ItemArmor.ArmorMaterial;
 import net.minecraft.item.ItemFood;
 import net.minecraft.item.ItemSword;
+import net.minecraft.potion.Potion;
+import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.common.util.EnumHelper;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
@@ -22,12 +25,16 @@ public class ModItems {
     public static Item brokentoothbrush;
     public static ItemSword toothbrushshiv;
     public static Item tinfoil;
+    public static Item emptysurstrommingcan;
 
+    public static ItemFood surstromming;
     public static ItemFood rottingfish;
 
     public static ItemArmor tinfoilhelmet;
 
     public static ArmorMaterial tinfoilArmorMaterial = EnumHelper.addArmorMaterial("tinfoil", "dpjjm:tinfoil", 15, new int[]{2,6,5,2}, 9, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F);
+
+    //public static Potion potionsick;
 
     public static void init(){
         emptytincan = new ItemEmptytincan();
@@ -37,10 +44,15 @@ public class ModItems {
         brokentoothbrush = new ItemBrokentoothbrush();
         toothbrushshiv = new ItemToothbrushshiv();
         tinfoil = new ItemTinfoil();
+        emptysurstrommingcan = new ItemEmptysurstrommingcan();
 
         rottingfish = new ItemRottingfish();
+        surstromming = new ItemSurstromming();
 
         tinfoilhelmet = new ArmorTinfoil("tinfoilhelmet", "ItemTinfoilhelmet", 1, EntityEquipmentSlot.HEAD);
+
+        Potion.REGISTRY.register(30, new ResourceLocation("sick"), new PotionSick(true, 16262179));
+        //potionsick = new PotionSick(true, 16262179).setIconIndex(0, 0).setPotionName("effect.sick");
     }
 
     public static void register(){
@@ -51,8 +63,10 @@ public class ModItems {
         GameRegistry.register(brokentoothbrush);
         GameRegistry.register(toothbrushshiv);
         GameRegistry.register(tinfoil);
+        GameRegistry.register(emptysurstrommingcan);
 
         GameRegistry.register(rottingfish);
+        GameRegistry.register(surstromming);
 
         GameRegistry.register(tinfoilhelmet);
     }
@@ -65,8 +79,10 @@ public class ModItems {
         registerRender(brokentoothbrush);
         registerRender(toothbrushshiv);
         registerRender(tinfoil);
+        registerRender(emptysurstrommingcan);
 
         registerRender(rottingfish);
+        registerRender(surstromming);
 
         registerRender(tinfoilhelmet);
     }

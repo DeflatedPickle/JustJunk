@@ -1,5 +1,6 @@
 package com.deflatedpickle.justjunk.init;
 
+import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
@@ -12,5 +13,6 @@ public class ModCrafting {
         GameRegistry.addShapelessRecipe(new ItemStack(ModItems.tiningot, 9), ModBlocks.tinblock);
         GameRegistry.addShapelessRecipe(new ItemStack(ModItems.tinfoil, 2), ModItems.tiningot);
         GameRegistry.addShapedRecipe(new ItemStack(ModItems.tiningot), "TTT", "TXT", "XXX", 'T', ModItems.tinfoil);
+        GameRegistry.addShapelessRecipe(new ItemStack(ModItems.toothbrushshiv), ModItems.toothbrush, Items.FLINT);
     }
 }

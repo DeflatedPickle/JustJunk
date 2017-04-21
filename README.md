@@ -41,6 +41,7 @@ Credit: [Loremaster](https://www.youtube.com/channel/UC3n-lKS-MYlunVtErgzSFZg)
 ### Achievements
 - Dumpster Diver - Open A Dumpster
 - One Mans Trash Is Another Mans Treasure -
+- I'm The Trash Man - Eat Garbage
 
 ### Baubles
 #### Rings
