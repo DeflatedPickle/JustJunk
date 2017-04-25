@@ -43,12 +43,13 @@ public class ItemTincan extends Item{
 
     @Override
     public ActionResult<ItemStack> onItemRightClick(World worldIn, EntityPlayer playerIn, EnumHand handIn){
-        playerIn.inventory.addItemStackToInventory(new ItemStack(ModItems.emptytincan,1));
-        playerIn.addExperience(1);
-        // playerIn.inventory.deleteStack(playerIn.getHeldItem(handIn));
-        playerIn.getHeldItem(handIn).shrink(1);
-        ItemStack random_item = new ItemStack(loot_table[(int) (Math.random() * loot_table.length)], 1);
-        playerIn.inventory.addItemStackToInventory(random_item);
+        if (!playerIn.world.isRemote) {
+            playerIn.inventory.addItemStackToInventory(new ItemStack(ModItems.emptytincan, 1));
+            playerIn.addExperience(1);
+            playerIn.getHeldItem(handIn).shrink(1);
+            ItemStack random_item = new ItemStack(loot_table[(int) (Math.random() * loot_table.length)], 1);
+            playerIn.inventory.addItemStackToInventory(random_item);
+        }
         return super.onItemRightClick(worldIn, playerIn, handIn);
     }
 }

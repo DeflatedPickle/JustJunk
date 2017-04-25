@@ -9,17 +9,20 @@ Credit: [Bluexin](http://www.minecraftforum.net/members/Bluexin), [Tencao](http:
 - Dirty Toothbrush
 - Aluminum Ingot
 - Aluminum Foil
-- Duct Tape
 - Scissors
 - Broken Scissors
 - Pencil
 - Broken Pencil
 - Fixed Pencil
 - Fixed Toothbrush
+- Cracked Diamond
+- Pyrite (Fools Gold)
+- Pyrite Nugget (Fools Gold Nugget)
 
 #### Food
 - Rotting Banana Skin
 - Types of Alcohol drinks
+- Rotting Apple
 
 #### "Loot Bags"
 - Trash Bag
@@ -60,6 +63,8 @@ Credit: [Bluexin](http://www.minecraftforum.net/members/Bluexin), [Tencao](http:
 - Empty Surströmming Can
 - Tinfoil
 - Tin Ingot
+- Duct Tape
+- Broken Stick
 
 #### "Loot Bags"
 - Tin Can
@@ -67,6 +72,7 @@ Credit: [Bluexin](http://www.minecraftforum.net/members/Bluexin), [Tencao](http:
 #### Food
 - Rotting Fish
 - Surströmming
+- Apple Core
 
 ### Blocks
 - Pile of Garbage

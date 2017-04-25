@@ -8,7 +8,7 @@
     "updateUrl": "",
     "authorList": ["DeflatedPickle"],
     "credits": "DeflatedPickle, Bluexin, Tencao, Loremaster",
-    "logoFile": "",
+    "logoFile": "assets/dpjjm/textures/logo.png",
     "screenshots": [],
     "dependencies": []
   }

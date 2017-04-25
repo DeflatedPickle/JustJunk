@@ -6,10 +6,13 @@ item.toothbrush.name=Tooth Brush
 item.brokentoothbrush.name=Broken Tooth Brush
 item.toothbrushshiv.name=Tooth Brush Shiv
 item.emptysurstrommingcan.name=Empty Surströmming Can
+item.ducttape.name=Duct Tape
+item.brokenstick.name=Broken Stick
 
     // Food
 item.rottingfish.name=Rotting Fish
 item.surstromming.name=Surströmming
+item.applecore.name=Apple Core
 
     // Armor
 item.tinfoilhelmet.name=Tinfoil Hat

@@ -57,6 +57,8 @@ public class PotionSick extends Potion{
         Items.BEEF,
         Items.RABBIT,
         Items.CHICKEN,
+        Items.SPIDER_EYE,
+        Items.FERMENTED_SPIDER_EYE,
 
         ModItems.rottingfish
     };

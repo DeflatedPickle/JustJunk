@@ -26,9 +26,12 @@ public class ModItems {
     public static ItemSword toothbrushshiv;
     public static Item tinfoil;
     public static Item emptysurstrommingcan;
+    public static Item ducttape;
+    public static Item brokenstick;
 
     public static ItemFood surstromming;
     public static ItemFood rottingfish;
+    public static ItemFood applecore;
 
     public static ItemArmor tinfoilhelmet;
 
@@ -43,9 +46,12 @@ public class ModItems {
         toothbrushshiv = new ItemToothbrushshiv();
         tinfoil = new ItemTinfoil();
         emptysurstrommingcan = new ItemEmptysurstrommingcan();
+        ducttape = new ItemDucttape();
+        brokenstick = new ItemBrokenstick();
 
         rottingfish = new ItemRottingfish();
         surstromming = new ItemSurstromming();
+        applecore = new ItemApplecore();
 
         tinfoilhelmet = new ArmorTinfoil("tinfoilhelmet", "ItemTinfoilhelmet", 1, EntityEquipmentSlot.HEAD);
 
@@ -61,9 +67,12 @@ public class ModItems {
         GameRegistry.register(toothbrushshiv);
         GameRegistry.register(tinfoil);
         GameRegistry.register(emptysurstrommingcan);
+        GameRegistry.register(ducttape);
+        GameRegistry.register(brokenstick);
 
         GameRegistry.register(rottingfish);
         GameRegistry.register(surstromming);
+        GameRegistry.register(applecore);
 
         GameRegistry.register(tinfoilhelmet);
     }
@@ -77,9 +86,12 @@ public class ModItems {
         registerRender(toothbrushshiv);
         registerRender(tinfoil);
         registerRender(emptysurstrommingcan);
+        registerRender(ducttape);
+        registerRender(brokenstick);
 
         registerRender(rottingfish);
         registerRender(surstromming);
+        registerRender(applecore);
 
         registerRender(tinfoilhelmet);
     }
