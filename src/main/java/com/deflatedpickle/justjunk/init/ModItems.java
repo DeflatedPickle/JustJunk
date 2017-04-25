@@ -28,6 +28,7 @@ public class ModItems {
     public static Item emptysurstrommingcan;
     public static Item ducttape;
     public static Item brokenstick;
+    public static Item woodenchunk;
 
     public static ItemFood surstromming;
     public static ItemFood rottingfish;
@@ -48,6 +49,7 @@ public class ModItems {
         emptysurstrommingcan = new ItemEmptysurstrommingcan();
         ducttape = new ItemDucttape();
         brokenstick = new ItemBrokenstick();
+        woodenchunk = new ItemWoodenchunk();
 
         rottingfish = new ItemRottingfish();
         surstromming = new ItemSurstromming();
@@ -69,6 +71,7 @@ public class ModItems {
         GameRegistry.register(emptysurstrommingcan);
         GameRegistry.register(ducttape);
         GameRegistry.register(brokenstick);
+        GameRegistry.register(woodenchunk);
 
         GameRegistry.register(rottingfish);
         GameRegistry.register(surstromming);
@@ -88,6 +91,7 @@ public class ModItems {
         registerRender(emptysurstrommingcan);
         registerRender(ducttape);
         registerRender(brokenstick);
+        registerRender(woodenchunk);
 
         registerRender(rottingfish);
         registerRender(surstromming);

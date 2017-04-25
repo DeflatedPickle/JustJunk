@@ -18,6 +18,7 @@ public class ModCrafting {
         GameRegistry.addShapelessRecipe(new ItemStack(ModItems.toothbrushshiv), ModItems.toothbrush, Items.FLINT);
         GameRegistry.addShapelessRecipe(new ItemStack(ModItems.tiningot), ModItems.tinfoil, ModItems.tinfoil, ModItems.tinfoil, ModItems.tinfoil);
         GameRegistry.addShapelessRecipe(new ItemStack(ModItems.tiningot, 9), ModBlocks.tinblock);
-        GameRegistry.addShapelessRecipe(new ItemStack(Blocks.PLANKS), ModItems.brokenstick);
+        GameRegistry.addShapelessRecipe(new ItemStack(ModItems.woodenchunk, 2), ModItems.brokenstick);
+        GameRegistry.addShapelessRecipe(new ItemStack(Blocks.PLANKS), ModItems.woodenchunk, ModItems.woodenchunk, ModItems.woodenchunk, ModItems.woodenchunk);
     }
 }
