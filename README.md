@@ -31,6 +31,8 @@ Credit: [Bluexin](http://www.minecraftforum.net/members/Bluexin), [Tencao](http:
 
 ### Blocks
 - Tire Piles (slabs)
+- Wood Generator
+- Back-Up Generator
 #### Containers
 - Dumpster
 - Trash Can
