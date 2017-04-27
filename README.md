@@ -4,6 +4,7 @@ A mod for Minecraft that adds some more junk to the game.
 Credit: [Bluexin](http://www.minecraftforum.net/members/Bluexin), [Tencao](http://www.minecraftforum.net/members/Tencao), [Loremaster](https://www.youtube.com/channel/UC3n-lKS-MYlunVtErgzSFZg)
 
 ## Planned
+- Make all vanilla seeds edible.
 
 ### Items
 - Dirty Toothbrush
@@ -15,9 +16,10 @@ Credit: [Bluexin](http://www.minecraftforum.net/members/Bluexin), [Tencao](http:
 - Broken Pencil
 - Fixed Pencil
 - Fixed Toothbrush
-- Cracked Diamond
 - Pyrite (Fools Gold)
 - Pyrite Nugget (Fools Gold Nugget)
+- Steel Ingot
+- Slag
 
 #### Food
 - Rotting Banana Skin
@@ -33,9 +35,12 @@ Credit: [Bluexin](http://www.minecraftforum.net/members/Bluexin), [Tencao](http:
 - Tire Piles (slabs)
 - Wood Generator
 - Back-Up Generator
+- Oil Drum
+- Trash Heap (acts like layered Snow)
 #### Containers
 - Dumpster
 - Trash Can
+- Toolbox
 
 ### Armor
 - Aluminum Foil Hat
@@ -44,6 +49,8 @@ Credit: [Bluexin](http://www.minecraftforum.net/members/Bluexin), [Tencao](http:
 
 ### Biomes
 - Garbage Dump
+
+### Randomly Generated Structures
 
 ### Achievements
 - Dumpster Diver - Open A Dumpster
@@ -67,6 +74,7 @@ Credit: [Bluexin](http://www.minecraftforum.net/members/Bluexin), [Tencao](http:
 - Tin Ingot
 - Duct Tape
 - Broken Stick
+- Cracked Diamond
 
 #### "Loot Bags"
 - Tin Can

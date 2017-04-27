@@ -21,7 +21,7 @@ public class EventHandlerCommon {
     @SubscribeEvent(priority = EventPriority.NORMAL)
     public void onLivingEntityUseItemEventFinish(LivingEntityUseItemEvent.Finish event) {
         if (the_item.equals("item.apple")){
-            if (!event.getEntityLiving().world.isRemote) {
+            if (!event.getEntityLiving().world.isRemote){
                 EntityItem item = new EntityItem(event.getEntityLiving().world, event.getEntityLiving().posX, event.getEntityLiving().posY, event.getEntityLiving().posZ, new ItemStack(ModItems.applecore, 1));
                 event.getEntityLiving().world.spawnEntity(item);
             }

@@ -9,11 +9,13 @@ item.emptysurstrommingcan.name=Empty Surströmming Can
 item.ducttape.name=Duct Tape
 item.brokenstick.name=Broken Stick
 item.woodenchunk.name=Wooden Chunk
+item.crackeddiamond.name=Cracked Diamond
 
     // Food
 item.rottingfish.name=Rotting Fish
 item.surstromming.name=Surströmming
 item.applecore.name=Apple Core
+item.appleseeds.name=Apple Seeds
 
     // Armor
 item.tinfoilhelmet.name=Tinfoil Hat

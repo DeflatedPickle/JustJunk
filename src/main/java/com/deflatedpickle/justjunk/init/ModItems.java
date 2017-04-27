@@ -34,6 +34,7 @@ public class ModItems {
     public static ItemFood surstromming;
     public static ItemFood rottingfish;
     public static ItemFood applecore;
+    public static ItemFood appleseeds;
 
     public static ItemArmor tinfoilhelmet;
 
@@ -56,6 +57,7 @@ public class ModItems {
         rottingfish = new ItemRottingfish();
         surstromming = new ItemSurstromming();
         applecore = new ItemApplecore();
+        appleseeds = new ItemAppleseeds();
 
         tinfoilhelmet = new ArmorTinfoil("tinfoilhelmet", "ItemTinfoilhelmet", 1, EntityEquipmentSlot.HEAD);
 
@@ -79,6 +81,7 @@ public class ModItems {
         GameRegistry.register(rottingfish);
         GameRegistry.register(surstromming);
         GameRegistry.register(applecore);
+        GameRegistry.register(appleseeds);
 
         GameRegistry.register(tinfoilhelmet);
     }
@@ -100,6 +103,7 @@ public class ModItems {
         registerRender(rottingfish);
         registerRender(surstromming);
         registerRender(applecore);
+        registerRender(appleseeds);
 
         registerRender(tinfoilhelmet);
     }

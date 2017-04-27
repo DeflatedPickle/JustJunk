@@ -3,7 +3,7 @@ package com.deflatedpickle.justjunk;
 public class Reference {
     public static final String MOD_ID = "dpjjm";
     public static final String NAME = "JustJunk";
-    public static final String VERSION = "1.22.0";
+    public static final String VERSION = "1.23.1";
     public static final String ACCEPTED_VERSIONS = "[1.11.2]";
 
     public static final String CLIENT_PROXY_CLASS = "com.deflatedpickle.justjunk.proxy.ClientProxy";
@@ -25,7 +25,8 @@ public class Reference {
 
         ROTTINGFISH("rottingfish", "ItemRottingfish"),
         SURSTROMMING("surstromming", "ItemSurstromming"),
-        APPLECORE("applecore", "ItemApplecore");
+        APPLECORE("applecore", "ItemApplecore"),
+        APPLESEEDS("appleseeds", "ItemAppleseeds");
 
         private String unlocalizedName;
         private String registryName;
