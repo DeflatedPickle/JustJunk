@@ -3,7 +3,7 @@ package com.deflatedpickle.justjunk;
 public class Reference {
     public static final String MOD_ID = "dpjjm";
     public static final String NAME = "JustJunk";
-    public static final String VERSION = "1.23.1";
+    public static final String VERSION = "1.26.0";
     public static final String ACCEPTED_VERSIONS = "[1.11.2]";
 
     public static final String CLIENT_PROXY_CLASS = "com.deflatedpickle.justjunk.proxy.ClientProxy";
@@ -11,7 +11,6 @@ public class Reference {
 
     public static enum JustJunkItems{
         EMPTYTINCAN("emptytincan", "ItemEmptytincan"),
-        TININGOT("tiningot", "ItemTiningot"),
         TINCAN("tincan", "ItemTincan"),
         TOOTHBRUSH("toothbrush", "ItemToothbrush"),
         BROKENTOOTHBRUSH("brokentoothbrush", "ItemBrokentoothbrush"),
@@ -22,6 +21,9 @@ public class Reference {
         BROKENSTICK("brokenstick", "ItemBrokenstick"),
         WOODENCHUNK("woodenchunk", "ItemWoodenchunk"),
         CRACKEDDIAMOND("crackeddiamond", "ItemCrackeddiamond"),
+
+        TININGOT("tiningot", "ItemTiningot"),
+        COPPERINGOT("copperingot", "ItemCopperingot"),
 
         ROTTINGFISH("rottingfish", "ItemRottingfish"),
         SURSTROMMING("surstromming", "ItemSurstromming"),
@@ -47,8 +49,12 @@ public class Reference {
 
     public static enum JustJunkBlocks{
         PILEOFGARBAGE("pileofgarbage", "BlockPileofgarbage"),
+
+        TINORE("tinore", "BlockTinore"),
+        COPPERORE("copperore", "BlockCopperore"),
+
         TINBLOCK("tinblock", "BlockTinblock"),
-        TINORE("tinore", "BlockTinore");
+        COPPERBLOCK("copperblock", "BlockCopperblock");
 
         private String unlocalizedName;
         private String registryName;

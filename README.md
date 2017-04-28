@@ -18,8 +18,18 @@ Credit: [Bluexin](http://www.minecraftforum.net/members/Bluexin), [Tencao](http:
 - Fixed Toothbrush
 - Pyrite (Fools Gold)
 - Pyrite Nugget (Fools Gold Nugget)
-- Steel Ingot
 - Slag
+- Rubber
+
+
+- Steel Ingot
+- Lead Ingot
+
+
+- Broken Battery
+- Unstable Battery
+- Basic Battery
+- Advanced Battery
 
 #### Food
 - Rotting Banana Skin
@@ -37,10 +47,27 @@ Credit: [Bluexin](http://www.minecraftforum.net/members/Bluexin), [Tencao](http:
 - Back-Up Generator
 - Oil Drum
 - Trash Heap (acts like layered Snow)
+
+
+- Steel Ore
+- Lead Ore
+
+
+- Steel Block
+- Lead Block
 #### Containers
 - Dumpster
 - Trash Can
 - Toolbox
+#### Machines
+- Ore Processor
+- Laser Cutter
+- Compressor
+- Charger
+
+
+- Basic Battery Cluster
+- Advanced Battery Cluster
 
 ### Armor
 - Aluminum Foil Hat
@@ -71,10 +98,13 @@ Credit: [Bluexin](http://www.minecraftforum.net/members/Bluexin), [Tencao](http:
 - Toothbrush Shiv
 - Empty Surströmming Can
 - Tinfoil
-- Tin Ingot
 - Duct Tape
 - Broken Stick
 - Cracked Diamond
+
+
+- Tin Ingot
+- Copper Ingot
 
 #### "Loot Bags"
 - Tin Can
@@ -86,8 +116,14 @@ Credit: [Bluexin](http://www.minecraftforum.net/members/Bluexin), [Tencao](http:
 
 ### Blocks
 - Pile of Garbage
+
+
 - Tin Ore
+- Copper Ore
+
+
 - Tin Block
+- Copper Block
 
 ### Armor
 - Tinfoil Hat

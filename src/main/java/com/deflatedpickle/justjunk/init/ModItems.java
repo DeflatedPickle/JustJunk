@@ -19,7 +19,6 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 
 public class ModItems {
     public static Item emptytincan;
-    public static Item tiningot;
     public static Item tincan;
     public static Item toothbrush;
     public static Item brokentoothbrush;
@@ -30,6 +29,9 @@ public class ModItems {
     public static Item brokenstick;
     public static Item woodenchunk;
     public static Item crackeddiamond;
+
+    public static Item tiningot;
+    public static Item copperingot;
 
     public static ItemFood surstromming;
     public static ItemFood rottingfish;
@@ -42,7 +44,6 @@ public class ModItems {
 
     public static void init(){
         emptytincan = new ItemEmptytincan();
-        tiningot = new ItemTiningot();
         tincan = new ItemTincan();
         toothbrush = new ItemToothbrush();
         brokentoothbrush = new ItemBrokentoothbrush();
@@ -53,6 +54,9 @@ public class ModItems {
         brokenstick = new ItemBrokenstick();
         woodenchunk = new ItemWoodenchunk();
         crackeddiamond = new ItemCrackeddiamond();
+
+        tiningot = new ItemTiningot();
+        copperingot = new ItemCopperingot();
 
         rottingfish = new ItemRottingfish();
         surstromming = new ItemSurstromming();
@@ -66,7 +70,6 @@ public class ModItems {
 
     public static void register(){
         GameRegistry.register(emptytincan);
-        GameRegistry.register(tiningot);
         GameRegistry.register(tincan);
         GameRegistry.register(toothbrush);
         GameRegistry.register(brokentoothbrush);
@@ -78,6 +81,9 @@ public class ModItems {
         GameRegistry.register(woodenchunk);
         GameRegistry.register(crackeddiamond);
 
+        GameRegistry.register(tiningot);
+        GameRegistry.register(copperingot);
+
         GameRegistry.register(rottingfish);
         GameRegistry.register(surstromming);
         GameRegistry.register(applecore);
@@ -88,7 +94,6 @@ public class ModItems {
 
     public static void registerRenders(){
         registerRender(emptytincan);
-        registerRender(tiningot);
         registerRender(tincan);
         registerRender(toothbrush);
         registerRender(brokentoothbrush);
@@ -99,6 +104,9 @@ public class ModItems {
         registerRender(brokenstick);
         registerRender(woodenchunk);
         registerRender(crackeddiamond);
+
+        registerRender(tiningot);
+        registerRender(copperingot);
 
         registerRender(rottingfish);
         registerRender(surstromming);

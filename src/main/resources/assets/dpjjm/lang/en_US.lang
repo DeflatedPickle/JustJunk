@@ -1,6 +1,5 @@
 // Items
 item.emptytincan.name=Empty Tin Can
-item.tiningot.name=Tin Ingot
 item.tincan.name=Tin Can
 item.toothbrush.name=Tooth Brush
 item.brokentoothbrush.name=Broken Tooth Brush
@@ -10,6 +9,10 @@ item.ducttape.name=Duct Tape
 item.brokenstick.name=Broken Stick
 item.woodenchunk.name=Wooden Chunk
 item.crackeddiamond.name=Cracked Diamond
+
+    // Ingots
+item.tiningot.name=Tin Ingot
+item.copperingot.name=Copper Ingot
 
     // Food
 item.rottingfish.name=Rotting Fish
@@ -25,8 +28,14 @@ effect.sick=Sick
 
 // Blocks
 tile.pileofgarbage.name=Pile of Garbage
+
+    // Ores
 tile.tinore.name=Tin Ore
+tile.copperore.name=Copper Ore
+
+    // Ingot Blocks
 tile.tinblock.name=Tin Block
+tile.copperblock.name=Copper Block
 
 // Tabs
 itemGroup.tab_justjunk=Just Junk

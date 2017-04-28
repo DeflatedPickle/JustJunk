@@ -1,0 +1,4 @@
+Copper:
+- Cyan/Red: 0
+- Magenta/Green: -60
+- Yellow/Blue: -100

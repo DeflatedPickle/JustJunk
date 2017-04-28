@@ -5,6 +5,7 @@ import com.deflatedpickle.justjunk.init.ModCrafting;
 import com.deflatedpickle.justjunk.init.ModItems;
 import com.deflatedpickle.justjunk.proxy.CommonProxy;
 
+import com.deflatedpickle.justjunk.world.ModWorldGeneration;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.fml.common.Mod;
@@ -14,6 +15,7 @@ import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
+import net.minecraftforge.fml.common.registry.GameRegistry;
 
 @Mod(modid = Reference.MOD_ID, name = Reference.NAME, version = Reference.VERSION, acceptedMinecraftVersions = Reference.ACCEPTED_VERSIONS)
 public class JustJunk {
@@ -30,6 +32,8 @@ public class JustJunk {
 
         ModBlocks.init();
         ModBlocks.register();
+
+        GameRegistry.registerWorldGenerator(new ModWorldGeneration(), 3);
     }
 
     @EventHandler

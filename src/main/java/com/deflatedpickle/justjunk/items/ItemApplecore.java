@@ -13,7 +13,7 @@ import net.minecraft.world.World;
 
 public class ItemApplecore extends ItemFood{
     public ItemApplecore() {
-        super(1, 0.0F, true);
+        super(1, 0.1F, true);
         setUnlocalizedName(Reference.JustJunkItems.APPLECORE.getUnlocalizedName());
         setRegistryName(Reference.JustJunkItems.APPLECORE.getRegistryName());
         setCreativeTab(JustJunk.tabJustJunk);
