@@ -13,18 +13,22 @@ public class ModBlocks {
 
     public static Block tinore;
     public static Block copperore;
+    public static Block pyriteore;
 
     public static Block tinblock;
     public static Block copperblock;
+    public static Block pyriteblock;
 
     public static void init(){
         pileofgarbage = new BlockPileofgarbage();
 
         tinore = new BlockTinore();
         copperore = new BlockCopperore();
+        pyriteore = new BlockPyriteore();
 
         tinblock = new BlockTinblock();
         copperblock = new BlockCopperblock();
+        pyriteblock = new BlockPyriteblock();
     }
 
     public static void register(){
@@ -32,9 +36,11 @@ public class ModBlocks {
 
         registerBlock(tinore);
         registerBlock(copperore);
+        registerBlock(pyriteore);
 
         registerBlock(tinblock);
         registerBlock(copperblock);
+        registerBlock(pyriteblock);
     }
 
     private static void registerBlock(Block block){
@@ -49,9 +55,11 @@ public class ModBlocks {
 
         registerRender(tinore);
         registerRender(copperore);
+        registerRender(pyriteore);
 
         registerRender(tinblock);
         registerRender(copperblock);
+        registerRender(pyriteblock);
     }
 
     private static void registerRender(Block block){

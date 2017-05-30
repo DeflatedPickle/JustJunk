@@ -32,6 +32,7 @@ public class ModItems {
 
     public static Item tiningot;
     public static Item copperingot;
+    public static Item pyriteingot;
 
     public static ItemFood surstromming;
     public static ItemFood rottingfish;
@@ -57,6 +58,7 @@ public class ModItems {
 
         tiningot = new ItemTiningot();
         copperingot = new ItemCopperingot();
+        pyriteingot = new ItemPyriteingot();
 
         rottingfish = new ItemRottingfish();
         surstromming = new ItemSurstromming();
@@ -83,6 +85,7 @@ public class ModItems {
 
         GameRegistry.register(tiningot);
         GameRegistry.register(copperingot);
+        GameRegistry.register(pyriteingot);
 
         GameRegistry.register(rottingfish);
         GameRegistry.register(surstromming);
@@ -107,6 +110,7 @@ public class ModItems {
 
         registerRender(tiningot);
         registerRender(copperingot);
+        registerRender(pyriteingot);
 
         registerRender(rottingfish);
         registerRender(surstromming);

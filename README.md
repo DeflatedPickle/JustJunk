@@ -16,10 +16,22 @@ Credit: [Bluexin](http://www.minecraftforum.net/members/Bluexin), [Tencao](http:
 - Broken Pencil
 - Fixed Pencil
 - Fixed Toothbrush
-- Pyrite (Fools Gold)
-- Pyrite Nugget (Fools Gold Nugget)
+- Old Copper Coin
+- Bottle Cap
+
+
 - Slag
 - Rubber
+- Coal Chunk
+
+
+- Egg Shell
+
+
+- Iron Cluster
+
+
+- Iron Dust
 
 
 - Steel Ingot
@@ -47,6 +59,10 @@ Credit: [Bluexin](http://www.minecraftforum.net/members/Bluexin), [Tencao](http:
 - Back-Up Generator
 - Oil Drum
 - Trash Heap (acts like layered Snow)
+- Mine
+- Powered Mine
+- Potion Mine
+- Quicksand
 
 
 - Steel Ore
@@ -61,13 +77,27 @@ Credit: [Bluexin](http://www.minecraftforum.net/members/Bluexin), [Tencao](http:
 - Toolbox
 #### Machines
 - Ore Processor
-- Laser Cutter
-- Compressor
+- Cluster Grinder
+- Chunk Compressor
+
+(Ore Method: 
+Mine Ore > 
+Pick up ore > 
+Put ore in ore processor > Process ores into clusters
+Put clusters in grinder > Grind clusters into chunks
+Put chunks into compressor > Compress chunks into ingots)
+
 - Charger
+
+
+- Wood Generator (2x2 Multi-Block)
 
 
 - Basic Battery Cluster
 - Advanced Battery Cluster
+
+
+- Dye-able Wires
 
 ### Armor
 - Aluminum Foil Hat
@@ -83,6 +113,9 @@ Credit: [Bluexin](http://www.minecraftforum.net/members/Bluexin), [Tencao](http:
 - Dumpster Diver - Open A Dumpster
 - One Mans Trash Is Another Mans Treasure - Make Use Of Some Found Trash
 - I'm The Trash Man - Eat Garbage
+- I Don't Need This - Throw something on the ground
+- You Fool! - Acquire Fools Gold (Pyrite)
+- First Steps - Move
 
 ### Baubles
 #### Rings

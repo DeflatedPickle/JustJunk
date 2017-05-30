@@ -24,6 +24,7 @@ public class Reference {
 
         TININGOT("tiningot", "ItemTiningot"),
         COPPERINGOT("copperingot", "ItemCopperingot"),
+        PYRITEINGOT("pyriteingot", "ItemPyriteingot"),
 
         ROTTINGFISH("rottingfish", "ItemRottingfish"),
         SURSTROMMING("surstromming", "ItemSurstromming"),
@@ -52,9 +53,11 @@ public class Reference {
 
         TINORE("tinore", "BlockTinore"),
         COPPERORE("copperore", "BlockCopperore"),
+        PYRITEORE("pyriteore", "BlockPyriteore"),
 
         TINBLOCK("tinblock", "BlockTinblock"),
-        COPPERBLOCK("copperblock", "BlockCopperblock");
+        COPPERBLOCK("copperblock", "BlockCopperblock"),
+        PYRITEBLOCK("pyriteblock", "BlockPyriteblock");
 
         private String unlocalizedName;
         private String registryName;

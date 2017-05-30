@@ -13,6 +13,7 @@ item.crackeddiamond.name=Cracked Diamond
     // Ingots
 item.tiningot.name=Tin Ingot
 item.copperingot.name=Copper Ingot
+item.pyriteingot.name=Pyrite Ingot
 
     // Food
 item.rottingfish.name=Rotting Fish
@@ -32,10 +33,12 @@ tile.pileofgarbage.name=Pile of Garbage
     // Ores
 tile.tinore.name=Tin Ore
 tile.copperore.name=Copper Ore
+tile.pyriteore.name=Pyrite Ore
 
     // Ingot Blocks
 tile.tinblock.name=Tin Block
 tile.copperblock.name=Copper Block
+tile.pyriteblock.name=Pyrite Block
 
 // Tabs
 itemGroup.tab_justjunk=Just Junk
